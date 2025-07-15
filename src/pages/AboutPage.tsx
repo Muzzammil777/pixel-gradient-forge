@@ -44,29 +44,13 @@ const AboutPage = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          {/* Profile Image */}
-          <motion.div
-            className="relative"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className="glass-card p-8">
-              <div className="aspect-square bg-gradient-primary rounded-xl p-8 flex items-center justify-center">
-                <div className="w-full h-full bg-muted rounded-lg flex items-center justify-center text-6xl font-bold text-muted-foreground">
-                  JD
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
+        <div className="max-w-4xl mx-auto mb-20">
           {/* About Content */}
           <motion.div
             className="space-y-6"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2 className="text-3xl font-bold text-foreground">
               Building the Future with AI
