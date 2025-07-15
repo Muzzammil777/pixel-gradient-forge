@@ -19,9 +19,9 @@ const HomePage = () => {
     <PageTransition>
       {/* Hero Section */}
       <section className="min-h-screen-mobile flex items-center justify-center relative pt-20">
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-          {/* Left Side - Text Content */}
-          <div className="space-y-8">
+        <div className="container mx-auto px-6 max-w-4xl">
+          {/* Text Content */}
+          <div className="space-y-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const HomePage = () => {
               </motion.h2>
               
               <motion.p
-                className="text-lg text-muted-foreground max-w-2xl"
+                className="text-lg text-muted-foreground max-w-2xl mx-auto"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
@@ -60,7 +60,7 @@ const HomePage = () => {
 
             {/* CTA Buttons */}
             <motion.div
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-4 justify-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
@@ -81,7 +81,7 @@ const HomePage = () => {
 
             {/* Social Links */}
             <motion.div
-              className="flex space-x-6"
+              className="flex space-x-6 justify-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
@@ -106,16 +106,6 @@ const HomePage = () => {
               })}
             </motion.div>
           </div>
-
-          {/* Right Side - 3D Scene */}
-          <motion.div
-            className="h-96 md:h-[500px]"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4, duration: 1 }}
-          >
-            <ThreeScene className="rounded-xl glass-card p-4" />
-          </motion.div>
         </div>
 
         {/* Scroll Indicator */}
