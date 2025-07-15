@@ -1,0 +1,80 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+  /Font <<
+    /F1 5 0 R
+  >>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 200
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(John Doe - AI Developer) Tj
+0 -30 Td
+/F1 12 Tf
+(Email: john.doe@example.com) Tj
+0 -20 Td
+(Phone: +1 (555) 123-4567) Tj
+0 -20 Td
+(Location: San Francisco, CA) Tj
+0 -40 Td
+/F1 16 Tf
+(Summary) Tj
+0 -20 Td
+/F1 12 Tf
+(Experienced AI Developer specializing in generative AI and machine learning.) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000053 00000 n 
+0000000110 00000 n 
+0000000251 00000 n 
+0000000503 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+574
+%%EOF
