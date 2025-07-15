@@ -52,7 +52,7 @@ const AboutPage = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="animated-border p-1">
+            <div className="glass-card p-8">
               <div className="aspect-square bg-gradient-primary rounded-xl p-8 flex items-center justify-center">
                 <div className="w-full h-full bg-muted rounded-lg flex items-center justify-center text-6xl font-bold text-muted-foreground">
                   JD
